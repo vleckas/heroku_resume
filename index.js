@@ -1,7 +1,10 @@
-var http = require('http');
+var express = require('Express')
+var path = require('path');
+var app = express();
 
-http.createServer(function(req, res){
-    res.writeHead(200);
-    res.write("Hello World!");
-    res.end();
-}).listen(process.env.PORT || 3000);
+app.use(express.static('public'));
+
+var server = app.listen(3000, function(){
+    var port = server.address().port;
+    console.log('Listening on port: ', port);
+});

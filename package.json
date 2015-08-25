@@ -8,5 +8,8 @@
     "start": "node index.js"
   },
   "author": "Vas Leckas",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
