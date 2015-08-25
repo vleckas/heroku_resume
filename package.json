@@ -1,0 +1,12 @@
+{
+  "name": "heroku_resume",
+  "version": "1.0.0",
+  "description": "My Resume on Heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Vas Leckas",
+  "license": "ISC"
+}
